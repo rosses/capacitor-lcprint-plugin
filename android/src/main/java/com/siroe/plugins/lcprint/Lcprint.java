@@ -12,6 +12,7 @@ public class Lcprint {
     public Boolean printText(Integer size, Boolean bold, Boolean underline, String value) {
         return true;
     }
+
     public Boolean feed(Integer lines) {
         return true;
     }
@@ -25,5 +26,7 @@ public class Lcprint {
     public Boolean voucher(JSObject receipt) {
         return true;
     }
-
+    public Boolean print() {
+        return true;
+    }
 }
